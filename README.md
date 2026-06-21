@@ -10,7 +10,7 @@ Each module includes documented assumptions, since some inputs (unit price, comp
 Built and documented day by day, Monday-Friday, over 3 weeks. Full writeup and findings for each module linked below.
 
 Project Structure
-pricing-analytics-toolkit/
+```pricing-analytics-toolkit/
 │
 ├── data/                                        # Raw + processed data (gitignored where large/licensed)
 │   └── README.md                                # Instructions to download Walmart dataset via Kaggle API
@@ -33,4 +33,4 @@ pricing-analytics-toolkit/
 │   ├── week2/
 │   └── week3/
 │
-└── README.md
+└── README.md```
