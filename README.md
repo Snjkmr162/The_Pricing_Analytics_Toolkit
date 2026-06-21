@@ -8,3 +8,29 @@ Module 3, Price-Volume-Margin Dashboard: An interactive view of how price change
 
 Each module includes documented assumptions, since some inputs (unit price, competitor pricing, margin) aren't present in the raw dataset and are reasonably derived or simulated, clearly flagged throughout the code and writeups.
 Built and documented day by day, Monday-Friday, over 3 weeks. Full writeup and findings for each module linked below.
+
+Project Structure
+pricing-analytics-toolkit/
+│
+├── data/                                        # Raw + processed data (gitignored where large/licensed)
+│   └── README.md                                # Instructions to download Walmart dataset via Kaggle API
+│
+├── notebooks/                                   # Colab/Jupyter notebooks, one folder per module
+│   ├── week1_repricing/
+│   │   └── week1_repricing_simulator.ipynb
+│   ├── week2_markdown/
+│   │   └── week2_markdown_optimization.ipynb
+│   └── week3_dashboard/
+│       └── week3_price_volume_margin.ipynb
+│
+├── src/                                         # Reusable Python scripts (core logic, importable)
+│   ├── week1_repricing_simulator.py
+│   ├── week2_markdown_optimization.py
+│   └── week3_dashboard_builder.py
+│
+├── outputs/                                     # Generated charts, CSVs, and dashboard exports
+│   ├── week1/
+│   ├── week2/
+│   └── week3/
+│
+└── README.md
