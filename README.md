@@ -46,6 +46,7 @@ pricing-analytics-toolkit/
 <img width="1589" height="592" alt="week3_day15_final_summary" src="https://github.com/user-attachments/assets/9611c7a2-6969-409e-a212-70c2929377c2" />
 
 
+
 📦 Week 1 - Competitive Repricing
 A naive rule-based engine triggered unnecessary repricings 79.9% of weeks on average
 Adding a 10% minimum gap threshold reduced that to 41.7%, a 38.1% reduction
